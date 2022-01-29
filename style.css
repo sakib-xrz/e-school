@@ -1,3 +1,60 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar img{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 200PX;
+    height: 60px;
+}
+
+.navbar .sign-button{
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    background-color: #21B573;
+}
+
+.navbar .navbar-nav .nav-link{
+    padding-right: 15px;
+}
+
+.navbar .navbar-nav{
+    margin-right: 30px;
+}
+
+.navbar .sign-button a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navbar .nav-item{
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+/* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ 
+
+@media screen and (max-width: 600px),(max-width: 600px),(max-width: 768px),(max-width: 992px){
+    .navbar .navbar-nav {
+        margin-right: 0px;
+        padding-bottom: 15px;
+      }
+    .navbar .navbar-nav .nav-link {
+        padding-right: 0px;
+      }
+    .sign-button{
+        margin: 0 auto;
+    }
+}
